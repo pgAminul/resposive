@@ -1,0 +1,912 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>main we</title>
+    <!-- font aw  -->
+    <script src="https://kit.fontawesome.com/c04389c6b1.js" crossorigin="anonymous"></script>
+
+    <!-- fontlink  -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Satisfy&display=swap" rel="stylesheet">
+    <!-- css link  -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+
+    <!-- js link  -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM" crossorigin="anoonymous"></script>
+    <link rel="stylesheet" href="index.css">
+</head>
+<style>
+  *{
+    margin: 0px;
+    padding: 0px;
+}
+
+.drop{
+    background-color:#212529 ;
+    border: none;
+
+}
+.hover{
+   width: max-content;
+   background-color: #06080a;
+   margin:5px;
+   border-radius: 8px;
+   transition: 0.5s;
+}
+.hover:hover{
+   background-color: rgb(45, 48, 56);
+}
+.drop li a:hover{
+   background-color:#06080a ;
+   color: white;
+   border-radius: 8px;
+
+}
+.drop li a{
+color: white;  
+width: max-content; 
+transition: 0.5s;
+}
+.div-nav-2{
+    text-transform: uppercase;
+}
+.menu{
+    margin: auto;
+}
+.nav-logo span{
+    font-size: 30px;
+    color: yellow;
+    font-family: 'Satisfy', cursive;
+}
+.butoon{
+    border: none;
+}
+/* header part start  */
+header{
+    background-image: url("../img/secound-web.png");
+    height: 100vh;
+    width: 100%;
+    margin-top: 40px;
+    padding: 150px 0px;
+    background-repeat: no-repeat;
+    background-position: center center;
+    background-size: cover;
+ }
+ .Spinners{
+   text-align: center;
+   margin-top: -30px;
+   padding-bottom: 20px;
+ }
+ .header{
+    width: auto;
+    text-align: center;
+    color: rgb(255, 234, 0);
+    background-color: #06080a83;
+    width: max-content;
+    margin: auto;
+    padding: 10px;
+    border-radius: 8px;
+    margin-bottom: 60px;
+ }
+ .social-icon{
+    margin-top: 40px;
+ }
+ .social-icon i{
+    width: 100%;
+    height: 100%;
+    background-color: rgb(0, 0, 0);
+    display:inline ;
+    font-size: larger;
+    padding: 10px;
+    border-radius: 50%;
+    margin-top: 1000px;
+    
+
+    
+ }
+ .social-icon i:hover{
+    background-color: rgba(31, 8, 201, 0.946);
+ }
+ .social-icon a{
+    text-decoration: none;
+    text-align: center;
+    color: white;
+    font-size: auto;
+    margin: 1%;
+ }
+ .sec-1{
+    background-color: blue;
+    color: white;
+ }
+ .sec-1 .container{
+    border-bottom: 1px dotted white;
+    width: max-content;
+    padding-top: 15px;
+    text-align: center;
+ }
+ .carousel-inner{
+    padding:20px 15%;
+    text-align: center;
+    background-color:#795434 ;
+    color: black;
+    margin-top: 20px;
+ }
+ .header-2{
+   margin-top: 60px;
+   text-align: center;
+   
+ }
+ .for-img{
+   height: 130px;
+ }
+ .review i{
+   color: #F7B80B;
+ }
+ .img-feedback{
+    border-radius: 50%;
+    text-align: center;
+    width: 100px;
+ }
+ .carousel-indicators{
+    margin: -5px;
+ }
+ .carousel-inner h2{
+    font-family: 'Satisfy', cursive;
+ }
+ /* services area start  */
+ .sec-2{
+   background-color: #000000;
+   padding-bottom: 15px;
+ }
+ .services{
+   margin: auto;
+ }
+ .singel-service{
+   box-shadow: 3px 3px 10px gray;
+   text-align: center;
+   margin: 5px auto;
+   
+ }
+ .head-in-service{
+   text-align: center;
+   padding: 15px;
+   background-color: rgb(46, 34, 34);
+   color: white;
+   width: max-content;
+   margin:8px auto;
+   margin-top: 15px;
+   font-size: 30px;
+   border-radius: 10px;
+ }
+ .row{
+   margin: auto;
+ }
+ /* about sec :start  */
+.about-bg{
+   background-color: coral;
+}
+
+/* faq sec  */
+.faq-head{
+   text-align: center;
+   padding: 20px;
+   font-weight: bold;
+   font-family:system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+
+/* button sec start  */
+.button {
+   display: flex;
+   justify-content: center;
+}
+.button a{
+   margin: 3px;
+}
+
+/* footersec start  */
+footer{
+   color: white;
+   background-image: linear-gradient(rgb(66, 40, 40), rgb(19, 17, 17));
+}
+.link-item a{
+text-decoration: none;
+color: white;
+padding: 4px;
+}
+.link-item a:hover{
+   text-decoration: underline;
+}
+
+
+
+     /* blog sectionss start  */
+     .section-7{
+      background-image: linear-gradient(rgb(155, 89, 89), rgb(19, 19, 67), rgb(75, 25, 25), rgb(63, 63, 19));
+      padding-bottom: 30px;
+      padding-top: 30px;
+      margin: 40px 0px;
+   }
+ .for-blog{
+   box-shadow: 3px 3px 10px black;
+   margin:3px auto;
+ }
+ .for-blog:hover{
+   color: white;
+   background-color: rgb(33, 43, 27);
+ }
+   .blog{
+      text-align: center;
+      color: white;
+   }
+
+   .img-tag{
+      height: 220px;
+      transition: 0.5s;
+   }
+   .card-body{
+      position: relative;
+      overflow: hidden;
+   }
+   .for-blog:hover .img-tag{
+      transform: scale(1.6);
+   }
+   .icon-tag{
+      width: 100%;
+   
+      text-align: center;
+      color: white;
+      font-size: 25px;
+      position:absolute ;
+      top:0;
+      left: 0;
+      height: 100%;
+      display: grid;
+      place-content:center;
+      opacity: 0;
+      transition: 0.5s;
+   }
+   .icon-tag i{
+      font-size: 30px;
+      margin-bottom: 15px;
+      color: rgb(183, 255, 0);
+   }
+   .icon-tag:hover{
+      opacity: 1;
+      background-color: rgba(0, 0, 0, 0.524);
+   }
+   .bolg-text-tag{
+      text-align: center;
+      margin: 10px 0;
+   }
+   .bolg-text-tag p{
+      margin-top: 10px;
+   }
+/* form part start here  */
+
+.from-part{
+   background-image: linear-gradient(rgb(49, 46, 46), rgb(86, 86, 21), rgb(110, 51, 51));
+   color: white;
+   margin: 30px auto;
+   padding: 15px;
+   box-shadow: 3px 3px 10px black;
+   width: 90%;
+}
+.form-button{
+   display: flex;
+   justify-content: space-evenly;
+}
+
+
+
+
+/* media quarise start here */
+@media only screen and (max-width: 600px)
+ {
+   .header{
+      font-size: 22px;
+   }
+   .social-icon{
+      font-size: 20px;
+   }
+ }
+
+@media only screen and (min-width: 600px)
+ {
+   .header{
+   font-size:33px;
+ }
+.social-icon{
+   font-size: 25px;
+}
+}
+
+@media only screen and (min-width: 1200px)
+ {
+   .header{
+   font-size:40px;
+ }
+.social-icon{
+   font-size: 30px;
+}
+}
+</style>
+<body>
+    <nav class="navbar navbar-expand-lg color navbar-dark bg-dark fixed-top">
+        <div class="container-fluid">
+            <a href="" class="navbar-brand">
+                <h2 class="nav-logo" style="cursor: none;" ><span>L</span>earn &nbsp;<span>By</span> &nbsp; <span>A</span>minul</h2>
+            </a>
+            <button class="navbar-toggler nav-button" type="button" data-bs-toggle="collapse" data-bs-target="#navbar" aria-controls="navbar" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+              </button>
+            <div class="collapse navbar-collapse div-nav-2" id="navbar" >
+                <ul class="navbar-nav menu ">
+   
+                <li class="nav-item " ><a href="#home" class="nav-link text-white hover p-2">Home</a></li>
+                <li class="nav-item"><a href="#service" class="nav-link text-white hover p-2">Services</a></li>
+                <li class="nav-item"><a href="#about" class="nav-link text-white hover p-2">About Me</a></li>
+                <li class="nav-item"><a href="#contact" class="nav-link text-white hover p-2">Contact Me</a></li>
+
+                <li class="nav-item dropdown">
+                    <button class="btn btn-primary nav-link dropdown-toggle text-white hover p-2" href="#" id="navbarDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                      
+                        Others
+                 
+                    </button>
+   
+                   <ul  class="dropdown-menu drop" aria-labelledby="navbarDropdown">
+                    <li>
+                        <a href="#FAQ" class="dropdown-item">FAQ</a>
+
+                    </li>
+                    <li>
+                        <a href="#feedback" class="dropdown-item">Clients feedback</a>
+
+                    </li>
+                    <li>
+                        <a href="#blog" class="dropdown-item">Blog</a>
+
+                    </li>
+                    
+                    <li>
+                        <a href="#social-media" class="dropdown-item">Follow Me</a>
+
+                    </li>
+                   </ul>
+                </li>
+            </ul>
+            <form class="d-flex">
+                <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search">
+                <button class="btn btn-outline-success" type="submit">Search</button>
+              </form>
+            </div>
+            </div>
+    </nav>
+<header id="home ">
+
+
+    <div class="conteiner">
+        <h2 class=" header">
+            Welcome To My Programming World
+        </h2>
+    </div>
+    <div class="Spinners">
+      <div class="spinner-grow text-danger"> </div>
+      <div class="spinner-grow text-primary"> </div>
+      <div class="spinner-grow text-light"> </div>
+      <div class="spinner-grow text-success"> </div>
+      <div class="spinner-grow text-important"> </div>
+      <div class="spinner-grow text-light"> </div>
+     </div>
+    <div class="img-fluid social-icon text-center">
+        <a href="https://web.facebook.com/profile.php?id=100032484008187" target="_blank"><i class="fab fa-facebook"></i></a>
+        <a href="https://www.instagram.com/dj7cat/" target="_blank" ><i class="fab fa-instagram"></i></a>
+        <a href="https://twitter.com/aminul_islam_1" target="_blank"><i class="fab fa-twitter"></i></a>
+        <a href="https://www.linkedin.com/in/md-aminul-islam-397126244/" target="_blank"><i class="fab fa-linkedin"></i></a>
+    </div>
+
+    
+    <div class=" header-2">
+      <img src="../img/aminul.jpg" alt="" class="for-img img-fluid rounded-circle rounded-circle">
+      <h2 class="text-white">You can complete your Project By Me</h2>
+    </div>
+</header>
+<main>
+    <section class="sec-1" id="feedback">
+        <div class="container">
+           <h3>Clients Feedback</h3>
+        </div>
+        <div id="carouselExampleControls" class="carousel slide feedback-option" data-bs-ride="carousel" data-interval="1000" data-pause="hover">
+            <div class="carousel-indicators">
+                <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
+                <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="1" aria-label="Slide 2"></button>
+                <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="2" aria-label="Slide 3"></button>
+                <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="3" aria-label="Slide 4"></button>
+              </div>
+            <div class="carousel-inner" style="height:380px;">
+              <div class="carousel-item active">
+                <p>Exceeded my expectations. Excellent work, responsive, and above and beyond support. Not only did the design turn out well but the website will be easy to modify even after delivery.</p>
+                <img src="../img/clit-1.jpeg" class="mb-2 img-feedback" alt="...">
+                  <h2 class="text-white">kylie Aeark</h2>
+                 <div class="review">
+                  <i class="fa-solid fa-star"></i>
+                  <i class="fa-solid fa-star"></i>
+                  <i class="fa-solid fa-star"></i>
+                  <i class="fa-solid fa-star"></i>
+                  <i class="fa-solid fa-star"></i>
+                 </div>
+                  <blockquote>Feedback From Fiverr</blockquote>
+            </div>
+              <div class="carousel-item ">
+                <p>He did a great job on this video, there was a lot of background noise that he was able to remove. He always completes the job in a timely manner. I will continue to use him....</p>
+                <img src="../img/four-clint.jpg" class="mb-2 img-feedback" alt="...">
+                  <h2 class="text-white">Jenifer Quraishi</h2>
+                 <div class="review">
+                  <i class="fa-solid fa-star"></i>
+                  <i class="fa-solid fa-star"></i>
+                  <i class="fa-solid fa-star"></i>
+                  <i class="fa-solid fa-star"></i>
+                  <i class="fa-solid fa-star"></i>
+                 </div>
+                  <blockquote>Feedback From Fiverr</blockquote>
+            </div>
+              <div class="carousel-item">
+                <p>Aminul one of the best sellers I have ever worked with on up work and I have worked with hundreds of sellers. Naveed takes the time to get every detail right and handles every project with care!</p>
+                <img src="../img/clint-2.jpg" class="mb-2 img-feedback" alt="...">
+                  <h2 class="text-primary">Jahangir Hussain</h2> 
+                  <div class="review">
+                    <i class="fa-solid fa-star"></i>
+                  <i class="fa-solid fa-star"></i>
+                  <i class="fa-solid fa-star"></i>
+                  <i class="fa-solid fa-star"></i>
+                  <i class="fa-solid fa-star-half-stroke"></i>
+                  </div>
+                  <blockquote>Feedback From Up work</blockquote>
+              </div>
+              <div class="carousel-item">
+                <p>In my career as an entrepreneur, I have run across graphic designers that are so good that they work magic. Aminul is one of them. Great work, and Thank you.</p>
+                <img src="../img/clint-3.jpg" class="mb-2 img-feedback" alt="...">
+                  <h2 class="text-warning">Al Madani</h2>
+                 <div class="review">
+                  <i class="fa-solid fa-star"></i>
+                  <i class="fa-solid fa-star"></i>
+                  <i class="fa-solid fa-star"></i>
+                  <i class="fa-solid fa-star-half-stroke"></i>
+                  <i class="fa-solid fa-star-half-stroke"></i>
+                 </div>
+                  <blockquote>Feedback From Social Media </blockquote>
+              </div>
+            </div>
+            <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleControls" data-bs-slide="prev">
+              <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+              <span class="visually-hidden">Previous</span>
+            </button>
+            <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleControls" data-bs-slide="next">
+              <span class="carousel-control-next-icon" aria-hidden="true"></span>
+            </button>
+          </div>
+    </section>
+    <!-- Service Section Start Here  -->
+    <section class="sec-2 pt-2 pb-3" id="services">
+      <div class="container" id="service">
+        <div class="row">
+          <div class="container-fluid">
+            <h4 class="head-in-service ">My Services</h4>
+          </div>
+          <div  class="card col-sm-12 col-md-5 col-lg  p-2 singel-service"  id="digital-marketing">
+            <div>
+              <img src="../img/Digital Marketing Agency Instagram Post.png" alt="" class="card-img-top">
+            </div>
+            <div class="card-body">
+              <h3 class="card-title" >Digital Marketing</h3>
+              <p class="card-text">Digital marketing, also called online marketing, is the promotion of brands to connect with potential customers using the internet and other forms of digital communication. This includes not only email, social media, and web-based advertising, but also text and multimedia messages as a marketing channel.</p>
+            </div>
+            <div class="footer services">
+              <a href="../2. digital marketing/index.html" class="btn btn-primary" target="_blank">Read More</a>
+            </div>
+          </div>
+          <div  class="card col-sm-12 col-md-5 col-lg  p-2  singel-service" id="web-designing">
+            <div>
+              <img src="../img/web-developer.png" alt="" class="card-img-top">
+            </div>
+            <div class="card-body" >
+              <h3 class="card-title">Font End Web Developer</h3>
+              <p class="card-text">A front-end developer creates websites and applications using web languages such as HTML, CSS, and JavaScript that allow users to access and interact with the site or app. When you visit a website, the design elements you see were created by a front-end developer.</p>
+            </div>
+            <div class="footer services">
+              <a href="../3. web desining/index.html" class="btn btn-primary" target="_blank">Read More</a>
+            </div>
+          </div>
+          <div  class="card col-sm-12 col-md-5  col-lg p-2 singel-service" id="graphics-designing">
+            <div>
+              <img src="../img/grapich design.png" alt="" class="card-img-top">
+            </div>
+            <div class="card-body" >
+              <h3 class="card-title">Graphic designer</h3>
+              <p class="card-text">Graphic design is a craft where professionals create visual content to communicate messages. By applying visual hierarchy and page layout techniques, designers use typography and pictures to meet users' specific needs and focus on the logic of displaying elements in interactive designs, to optimize the user experience.</p>
+            </div>
+            <div class="footer services">
+              <a href="../4. graphic Desining/index.html" target="_blank" class="btn btn-primary">Read More</a>
+            </div>
+          </div>
+          <div  class="card col-sm-12 col-md-5  col-lg p-2 singel-service" id="video-editing">
+            <div>
+              <img src="../img/Video-Editing.png" alt="" class="card-img-top">
+            </div>
+            <div class="card-body">
+              <h3 class="card-title">Video Editor</h3>
+              <p class="card-text">A Video Editor is tasked with taking the raw footage shot by a film crew and director and turning it into the final product. This means following an outline, script or shot list and assembling the footage into one cohesive video or film. </p>
+            </div>
+            <div class="footer services">
+              <a href="../4. Video Editing/index.html" target="_blank" class="btn btn-primary">Read More</a>
+            </div>
+          </div>
+          </div>
+      </div>
+    </section>
+    <!-- about me start  -->
+    <section id="about">
+        <div class="row">
+          <div class=" col carousel-inner about-bg">
+            <div class="carousel-item active">
+              <h3 class="pt-3 text-white">About Me</h3><hr class="mb-5">
+              <img src="../img/aminul.jpg" class="mb-2 img-feedback" alt="...">
+              <h2>Aminul Islam</h2>
+              <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Neque, facere ab. Optio nihil ipsam culpa repudiandae delectus odio, saepe maxime, quam magni recusandae, dignissimos sequi excepturi nesciunt earum in esse!</p>
+  </div>
+          </div>
+          </div>
+    </section>
+    
+
+    <!-- FAQ strat here  -->
+    
+   <section class="pb-3" id="FAQ">
+    <div class="container faq-head">
+      <h2>FAQ</h2>
+    </div>
+    <div class="alert alert-danger">
+      <strong>Note!</strong> Click on the question to see the answers.
+    </div>
+    <div id="accordion">
+
+      <div class="card">
+        <div class="card-header"data-bs-toggle="tooltip" data-bs-placement="right" title="Click Me">
+          <button class="btn btn-primary" data-bs-toggle="collapse" data-bs-target="#coll-1">
+            What type of services are available?
+          </button>
+         
+        </div>
+        <div id="coll-1" class="collapse " data-bs-parent="#accordion">
+          <div class="card-body  text-white rounded">
+            <h6 class="text-dark">If you want see how much services are available <strong>Now</strong> please click this link</h6>
+           <a href="#services" class="btn btn-success">Click Me</a>
+          </div>
+        </div>
+      </div>
+      
+
+      <div class="card">
+        <div class="card-header" data-bs-toggle="tooltip" data-bs-placement="right" title="Click Me">
+          <button class="btn btn-primary" data-bs-toggle="collapse" data-bs-target="#coll-2">
+          Can I Hire You For My Project?
+          </button>
+         
+        </div>
+        <div id="coll-2" class="collapse " data-bs-parent="#accordion">
+          <div class="card-body  text-dark rounded">
+            <h6>Yes! But I have some conditions!</h6>
+          </div>
+        </div>
+      </div>
+      
+
+      <div class="card">
+        <div class="card-header" data-bs-toggle="tooltip" data-bs-placement="right" title="Click Me">
+          <button class="btn btn-primary" data-bs-toggle="collapse" data-bs-target="#coll-3">
+            What kind of conditions?
+          </button>
+         
+        </div>
+        <div id="coll-3" class="collapse " data-bs-parent="#accordion">
+          <div class="card-body text-dark rounded">
+           <h6> If you want to hire me for your project, first of all I can't work directly but  I can complete your project remotely.
+            Then I can't budge you for the project price.
+</h6>
+          </div>
+        </div>
+      </div>
+      
+
+      <div class="card">
+        <div class="card-header" data-bs-toggle="tooltip" data-bs-placement="right" title="Click Me">
+          <button class="btn btn-primary" data-bs-toggle="collapse" data-bs-target="#coll-4">
+            How much is the price? 
+          </button>
+         
+        </div>
+        <div id="coll-4" class="collapse " data-bs-parent="#accordion">
+
+          <div id="parent-faq">
+          <div class="card-body text-white">
+           <div  data-bs-toggle="tooltip" data-bs-placement="right" title="Click Me">
+            <button class="btn btn-success" data-bs-toggle="collapse" data-bs-target="#coll-5">
+              How much for Digital Marketing?
+            </button>
+           </div>
+        <div id="coll-5" class="collapse "data-bs-parent="#parent-faq" >
+
+          <div class="card-body  text-dark rounded mt-2">
+            <h6>Minimum $5 Average depends on your project.</h6>
+            </div>
+          </div>
+        </div>
+        
+          <div class="card-body text-white">
+            <div  data-bs-toggle="tooltip" data-bs-placement="right" title="Click Me">
+              <button class="btn btn-success" data-bs-toggle="collapse" data-bs-target="#coll-6">
+                How much for Website Designing?
+               </button>
+            </div>
+        <div id="coll-6" class="collapse "data-bs-parent="#parent-faq" >
+
+          <div class="card-body text-dark rounded mt-2">
+            <h6>Minimum $20 Average depends on your project.</h6>
+            </div>
+          </div>
+        </div>
+        
+        
+                  <div class="card-body text-white">
+                   <div  data-bs-toggle="tooltip" data-bs-placement="right" title="Click Me">
+                    <button class="btn btn-success" data-bs-toggle="collapse" data-bs-target="#coll-7">
+                      How much for Graphics designing?
+                     </button>
+                   </div>
+                <div id="coll-7" class="collapse " data-bs-parent="#parent-faq">
+        
+                  <div class="card-body  text-dark rounded mt-2">
+                    <h6>Minimum $10 Average depends on your project.</h6>
+                    </div>
+                  </div>
+                </div>
+        
+                  <div class="card-body text-white">
+                   <div  data-bs-toggle="tooltip" data-bs-placement="right" title="Click Me">
+                    <button class="btn btn-success" data-bs-toggle="collapse" data-bs-target="#coll-8">
+                      How much for Video Editing?
+                     </button>
+                   </div>
+                <div id="coll-8" class="collapse " data-bs-parent="#parent-faq">
+        
+                  <div class="card-body  text-dark rounded mt-2">
+                    <h6>Minimum $15 Average depends on your project.</h6>
+                    </div>
+                  </div>
+                </div>
+        </div>
+      </div>
+      </div>
+
+      <div class="card">
+        <div class="card-header">
+         <div  data-bs-toggle="tooltip" data-bs-placement="right" title="Click Me">
+          <button class="btn btn-primary" data-bs-toggle="collapse" data-bs-target="#coll-9">
+            Can I Contact You?
+           </button>
+         </div>
+         
+        </div>
+        <div id="coll-9" class="collapse " data-bs-parent="#accordion">
+          <div class="card-body  text-white rounded">
+            <h6 class="text-dark">Yes! If you have any query please click this link and message me.</h6>
+           <a href="#contact-me" class="btn btn-danger">For Contact</a>
+          </div>
+        </div>
+      </div>
+    </div>
+   </section>
+
+   <!-- Blog section strat  -->
+   <section class="section-7" id="blog">
+    <div class="container">
+            <div class="blog">
+                <h2>
+                    From Blog
+                </h2>
+                <h4>
+                   Some Awesome Blog In Bangladesh
+                </h4>
+            </div>
+            <div class="row">
+
+
+                    <div class="card for-blog col-sm-12 col-md-5 col-lg-5">
+
+                        <div class="card-body">
+                            <img class="img-tag card-img-top" src="../img/chowhatta.jpg" alt="">
+
+                            <div class="icon-tag">
+                                <i class="fas fa-pencil-alt"></i>
+                                <h5>Sylhet chowhatta </h5>
+                            </div>
+                        </div>
+
+                        <div class="bolg-text-tag">
+                            <h3>Sylhet chowhatta Point In Bangladesh</h3>
+                            <p>This Place Is Very Awesome For a Visitor.</p>
+                        </div>
+                        
+                    </div>
+
+
+                    <div class="card for-blog col-sm-12 col-md-5 col-lg-5">
+
+                        <div class="card-body">
+                            <img class="img-tag card-img-top" src="../img/sajek.jpg" alt="">
+
+                            <div class="icon-tag">
+                                <i class="fa-solid fa-camera-rotate"></i>
+                                <h5>Sajek</h5>
+                            </div>
+                        </div>
+
+                        <div class="bolg-text-tag">
+                            <h3>Sajek Vellay In bangladesh</h3>
+                            <p>Japan is one of the world’s most successful democracies and largest economies.</p>
+                        </div>
+
+                    </div>
+
+                    <div class="card for-blog col-sm-12 col-md-5 col-lg-5">
+
+                        <div class="card-body">
+                            <img class="img-tag card-img-top" src="../img/sylhet-sidebar.jpg" alt="">
+
+                            <div class="icon-tag">
+                                <i class="far fa-comment"></i>
+                                <h5>Tea Garden</h5>
+                            </div>
+                        </div>
+
+                        <div class="bolg-text-tag">
+                            <h3>Tea Garden In Moulovi bazar, Bangladesh</h3>
+                            <p>Sylhet is very Famouse for tea gardens</p>
+                        </div>
+
+                    </div>
+
+                    <div class="card for-blog col-sm-12 col-md-5 col-lg-5">
+
+                        <div class="card-body">
+                            <img class="img-tag card-img-top" src="../img/Sylhet city.jpg" alt="">
+
+                            <div class="icon-tag">
+                                <i class="fas fa-pencil-alt"></i>
+                                <h5>Sylhet Town</h5>
+                            </div>
+                        </div>
+
+                        <div class="bolg-text-tag">
+                            <h3> Main Sylhet Town, Bangladesh</h3>
+                            <p>You can visit the Sylhet Town for the many reason.</p>
+                        </div>
+                        
+                    </div>
+            </div>
+          </div>
+</section>
+
+   <!-- form part start here  -->
+   <section id="contact">
+    <form action="" class="mb-5">
+      
+     <div class="container from-part">
+      <div class=" p-4" >
+        <h2 style="text-align: center;">Contact Form</h2>
+        <div class="alert alert-danger alert-dismissible mt-3">
+          <button type="button" class="btn-close" data-bs-dismiss="alert"></button>
+          <strong>Note!</strong> This Contact From Not Connect To Our Data server.
+        </div>
+      </div>
+      <div class="p-1 " style="width: 70%; margin: auto;">
+      <label for="name" class="form-label" >First Name</label>
+      <input type="text" class="form-control " required id="name" name="name" placeholder="Enter Your Frist Name" style="padding-left: 20px;">
+    </div>
+      <div class="p-1 " style="width: 70%; margin: auto;">
+      <label for="last-name" class="form-label">Last Name</label>
+      <input type="text" class="form-control" required id="last-name" name="last-name" placeholder="Enter Your Last Name" style="padding-left: 20px;">
+    </div>
+     <div class="p-1 " style="width: 70%; margin: auto;">
+     
+      <label for="email" class="form-label">Email</label>
+      <input type="email" class="form-control " required id="email" name="email" placeholder="Enter Your Email" style="padding-left: 20px;">
+      
+     </div>
+     <div style="width:70%; margin: auto; ">
+      <label for="message" class="form-label"> Message</label>
+      <textarea style="resize: none; height:20vh; padding-left:20px" name="message" class="form-control" id="message" placeholder="Write Someting"></textarea>
+     
+     <div class="mt-2">
+      <input type="checkbox" class="form-check-input" id="exampleCheck1">
+      <label class="form-check-label" for="exampleCheck1">Check me out</label>
+     </div>
+ <div class="form-button">
+      <!-- Button to Open the Modal -->
+<button type="button" class="btn btn-danger mt-4" data-bs-toggle="modal" data-bs-target="#Modal">
+  Submit
+</button>
+<a href="https://web.facebook.com/profile.php?id=100032484008187" target="_blank" class="btn btn-primary mt-4">Send Message</a>
+ </div>
+<div class="modal" id="Modal">
+  <div class="modal-dialog">
+    <div class="modal-content">
+      <!-- Modal Header -->
+      <div class="modal-header">
+        <h5 class="modal-title text-dark">Please Note!</h5>
+        <button type="button" class="btn-close" data-bs-dismiss="modal"></button>
+      </div>
+
+      <!-- Modal body -->
+      <div class="modal-body text-dark">
+        This Contact From Not Connect To Our Data Server. If You Want Contact Me Please Click This Contact Button.
+      </div>
+         <!-- Modal footer -->
+         <div class="modal-footer">
+          <a href="../1. web-main/index.html #contact" type="button" class="btn btn-danger" target="_blank">Click Me! For Contact</a>
+        </div>
+        </div>
+     
+  </form>
+</section>
+ <!-- button section start  -->
+<section class="m-4">
+  <div class="button">
+    <a href="../2. digital marketing/index.html" target="_blank" class="btn btn-danger">1</a>
+    <a href="../3. web desining/index.html" target="_blank" class="btn btn-danger">2</a>
+    <a href="../4. graphic Desining/index.html" target="_blank" class="btn btn-danger">3</a>
+    <a href="../4. Video Editing/index.html" target="_blank" class="btn btn-danger">4</a>
+  </div>
+</section>
+</main>
+
+
+<!-- footer sec start  -->
+<footer>
+  <div class="container">
+    <div class="row">
+      <div class="col-md-4 col-xs-12 col-sm-12 text-center p-3" id="contact">
+        <h5 >Contact Me</h5>
+        <div class="pt-3">
+          <p><i class="fa-solid fa-phone"></i> +8801752-574182</p>
+          <p><i class="fa-solid fa-envelope"></i> amnul254237@gmail.com</p>
+        </div>
+      </div>
+      <div class="col-md-4 col-xs-12 col-sm-6 text-center p-3">
+        <h5>Services</h5>
+        <div class="link-item pt-3">
+        <a href="#digital-marketing" class="d-block">Digital Marketing</a>
+        <a href="#video-editing" class="d-block">Video Editing</a>
+        <a href="#web-designing" class="d-block">Web-site Designing</a>
+        <a href="#graphics-designing" class="d-block">Graphic Designing</a>
+        </div>
+      </div>
+      <div class="col-md-4 col-xs-12 col-sm-6 p-3 text-center">
+        <h5>Follow Me</h5>
+        <div class="link-item pt-3" id="social-media">
+          <a href="https://web.facebook.com/profile.php?id=100032484008187" class="d-block" target="_blank"><i class="fa-brands fa-facebook"></i>  Facebook</a>
+          <a href="https://www.instagram.com/dj7cat/" class="d-block" target="_blank"><i class="fa-brands fa-instagram"></i> Instagram</a>
+          <a href="https://www.linkedin.com/in/md-aminul-islam-397126244/" class="d-block" target="_blank"><i class="fa-brands fa-square-twitter"></i> Twitter</a>
+          <a href="https://twitter.com/aminul_islam_1" class="d-block" target="_blank"><i class="fa-brands fa-linkedin"></i> Linkedin</a>
+        </div>
+       
+      </div>
+    </div>
+  </div>
+</footer>
+</body>
+</html>
